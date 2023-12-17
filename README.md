@@ -1,5 +1,5 @@
 # Artify
-An Art Gallery - https://www.garrulous-team.surge.sh
+An Art Gallery - https://lazy-calendar.surge.sh/
 
 ## Features
 * Explore arts from different categories as
