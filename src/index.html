@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artify</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/d2320124a0.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <nav class="top-nav-bar">
+        <div class="brand-name">
+            Artify
+        </div>
+        
+        <div class="bar">
+          <button class="bars" onclick="menu()">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <ul id="navlist">
+            <li>
+              <button id="Classic">Classic Art</button>
+            </li>
+            <li>
+              <button id="Modern">Modern Art</button>
+            </li>
+            <li>
+              <button id="Sculptures">Sculptures</button>
+            </li>
+            <li>
+              <button id="Cubism">Cubism</button>
+            </li>
+            <li>
+              <button id="Abstract">Abstract Art</button>
+            </li>
+            <li>
+              <button id="Favorites">Favorites <span id="count"></span></button>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <div id="main">
+      <h1 id="title"></h1>
+      <div class="container">
+
+      </div>
+
+      <div class="information">
+
+      </div>
+
+    </div>
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
+<script>
+  var isMenuOpen = false;
+  function menu()
+  {
+    if(isMenuOpen)
+    {
+      document.getElementById('navlist').style.display = 'none'
+      isMenuOpen = false
+    }
+    else
+    {
+      document.getElementById('navlist').style.display = 'block'
+      isMenuOpen = true
+    }
+  }
+</script>
