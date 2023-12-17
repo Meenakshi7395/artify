@@ -1,5 +1,5 @@
 # Artify
-An Art Gallery 
+An Art Gallery - https://www.garrulous-team.surge.sh
 
 ## Features
 * Explore arts from different categore as
