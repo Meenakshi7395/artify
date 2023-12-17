@@ -2,15 +2,18 @@
 An Art Gallery - https://www.garrulous-team.surge.sh
 
 ## Features
-* Explore arts from different categore as
+* Explore arts from different categories as
   * Classic Art
   * Modern Art
   * Sculpture
   * Cubism
   * Abstract Art
 * Add different images to favorites.
-* This application utilises the art library from unsplash.com
+* This application utilizes the art library from unsplash.com
+* This application is hosted on surge.sh
 
 ## Team
 * Meenakshi Sharma
-* Priyam
+* Kausik Saha
+* Priyam Chatterjee
+* Karthik kakarla
