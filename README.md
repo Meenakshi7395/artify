@@ -10,3 +10,7 @@ An Art Gallery
   * Abstract Art
 * Add different images to favorites.
 * This application utilises the art library from unsplash.com
+
+## Team
+* Meenakshi Sharma
+* Priyam
